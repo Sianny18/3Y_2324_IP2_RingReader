@@ -1,0 +1,17 @@
+﻿<Window x:Class="RingReadDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RingReadDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="myGrid">
+        <TextBox x:Name="txtbPath" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Rings.csv" VerticalAlignment="Top" Width="780"/>
+        <Button x:Name="btnOpen" Content="Open" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="200" ToolTip="This just opens the file from the path above." Click="btnOpen_Click"/>
+        <Label x:Name="lblRingCount" Content="Ring Count : 00" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblCharCount" Content="Char Count : 00" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
